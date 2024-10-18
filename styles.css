@@ -19,9 +19,12 @@ body::after{
 }
 
 body > a{
+    display: flex;
     position: absolute;
-    left: 1rem;
-    top: 1rem;
+    left: 42%;
+    top: 2rem;
+    text-align: center,
+    justfy-content :center;
     text-decoration: none;
     color: aqua;
     font-size: 40px;
